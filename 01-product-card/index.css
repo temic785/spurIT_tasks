@@ -1,0 +1,146 @@
+/* Смотри сколько снизу свободного места! Оно идеально подойдёт, чтобы писать твои стили! */
+@import"./nullstyle.css";
+
+body {
+	background: #F6F6F6;
+	font-family: 'Arial';
+	font-weight: 900;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+
+}
+
+.content {
+	padding: 40px 0;
+}
+
+.content_title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 900;
+	font-size: 48px;
+	line-height: 72px;
+	text-transform: uppercase;
+	margin: 0px 0px 40px 0px;
+}
+
+.container {
+	max-width: 1180px;
+	margin: 0px auto;
+}
+
+.content__row {
+	display: flex;
+	margin: 0px -10px;
+}
+
+.content__column {
+	padding: 0px 10px;
+	flex: 0 1 33.333%;
+	display: flex;
+
+}
+
+
+.content__item {
+	background: #FFFF;
+	box-shadow: 0px 0px 45px -4px rgba(0, 0, 0, 0.18);
+	border-radius: 12px;
+	padding: 0px 0px 23.97px 0px;
+	display: flex;
+	flex-direction: column;
+}
+
+.content__img img {
+	border-radius: 12px 12px 0px 0px;
+
+}
+
+.content_img_1 {
+	width: 380px;
+	height: 213.75px;
+	position: relative;
+
+}
+
+.content_img_1 img {
+	width: 100%;
+	position: absolute;
+}
+
+.content__btn-new-last {
+	padding: 16px 16px 0px 16px;
+	position: absolute;
+}
+
+.content__span {
+	background: #FDCFF3;
+	border-radius: 8px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	display: inline-block;
+	text-align: center;
+	width: 110px;
+}
+
+.content__span_span_2 {
+	background: #FFCF56;
+	width: 134.41px;
+}
+
+.content__subtitle {
+	font-size: 24px;
+	line-height: 36px;
+	padding: 24px 24px 0px 24px;
+}
+
+.content__text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	padding: 0px 24px;
+	padding: 16px 24px 24.25px 24px;
+	flex: 1 1 auto;
+}
+
+.content__button {
+	display: block;
+	color: #42940F;
+	border: 2px solid #42940F;
+	border-radius: 8px;
+	height: 48px;
+	line-height: 48px;
+	margin: 0px 24px;
+	text-align: center;
+	transition: 0.35s;
+}
+
+.content__button:hover {
+	color: #fff;
+	background-color: #42940F;
+
+}
+
+.content__button:active {
+	background-color: #1F5200;
+}
+
+.content__button-disabled {
+	display: block;
+	background-color: #4E4E4E;
+	color: #fff;
+	border: 1px solid #4E4E4E;
+	border-radius: 8px;
+	height: 48px;
+	line-height: 48px;
+	margin: 0px 24px;
+	text-align: center;
+	pointer-events: none;
+	cursor: default;
+
+}
