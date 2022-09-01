@@ -1,10 +1,9 @@
 const animationController = document
 	.querySelector(".collapsible__content")
 	.animate(
-		// { width: ["0px", "800px"] },
-		// { duration: 250, fill: "both", easing: "ease-out" }
-		{ width: '600px', opacity: 0, cursor: 'default' },
-		{ duration: 1000, fill: "both" }
+
+		{ width: '600px', visibility: 'hidden' },
+		{ duration: 1, fill: "both", backgroundColor: 'red' }
 
 	);
 
@@ -12,7 +11,7 @@ const animationController2 = document
 	.querySelector(".collapsible__action--hidden")
 	.animate(
 
-		{ display: 'none', opacity: 0 },
+		{ display: 'none', visibility: 'hidden' },
 		{ fill: "both" }
 
 	);
